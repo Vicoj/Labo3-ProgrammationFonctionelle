@@ -201,4 +201,4 @@ class Sentence :
 s = Sentence (" Bonjour , c'est moi .")
 print ( list (s))
 for word in s:
-print ( word )
+    print ( word )

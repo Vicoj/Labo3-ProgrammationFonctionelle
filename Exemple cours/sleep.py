@@ -2,7 +2,6 @@ import time
 
 def sleep(t=1):
 	def decorator(f):
-		print(f)
 		def wrapper(*args, **kwargs):
 			res = f(*args, **kwargs)
 			time.sleep(t)

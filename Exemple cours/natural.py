@@ -47,6 +47,8 @@ class Natural:
 N = Natural(12)
 print("len:", len(N))
 
+
+
 i = 0
 while i < len(N):
 	print("bit {}: {}".format(i, N[i]))
